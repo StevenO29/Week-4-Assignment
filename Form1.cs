@@ -37,9 +37,7 @@ namespace Assigment_Week_4
             TxtBoxInputAlamat.Clear();
             TxtBoxInputNoTelp.Clear();
             if (counter > 10)
-            {
                 MessageBox.Show("Data telah penuh!");
-            }
         }
         private void BtnLihatData_Click(object sender, EventArgs e)
         {
