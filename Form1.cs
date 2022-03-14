@@ -29,7 +29,7 @@ namespace Assigment_Week_4
         }
         private void BtnSimpan_Click(object sender, EventArgs e)
         {
-            counter += 1;
+            counter++;
             arrayNama[counter - 1] = TxtBoxInputNama.Text;
             arrayAlamat[counter - 1] = TxtBoxInputAlamat.Text;
             arrayNoTelp[counter - 1] = TxtBoxInputNoTelp.Text;
